@@ -157,4 +157,27 @@ footer p {
 
 .btn-wrapper {
     grid-column: span 2;
+    font-size: larger;
+}
+
+/* 2️⃣ Add this to your stylesheet (or inside a <style> tag) */
+.ebay-profile-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0052c6;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color .15s ease-in-out;
+}
+
+.ebay-profile-btn:hover,
+.ebay-profile-btn:focus {
+    background-color: #003d99;
+
 }
