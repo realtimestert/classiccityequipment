@@ -22,6 +22,7 @@
     <script src="scripts/weather.js" defer></script>
     <script src="scripts/pageVisits.js" defer></script>
     <script src="scripts/burger.js" defer></script>
+    <script src="scripts/collapse.js" defer></script>
 </head>
 
 <body>
@@ -46,7 +47,149 @@
             </a>
         </header>
     </div>
+    <div class="content">
+        <h2>Lab Equipment</h2>
+    </div>
 
+    <section class="gallery">
+
+        <div class="image-grid">
+            <figure>
+                <div class="btn-wrapper">
+                    <a href="product/vwrlabincubator.html">
+                        VWR Laboratory Incubator (Need to test C02)
+                    </a>
+                </div>
+                <img src="images/vwr laboratory incubator/20250802_094050.webp" loading="lazy" alt="">
+            </figure>
+        </div>
+
+        <div class="image-grid">
+            <figure>
+                <div class="btn-wrapper">
+                    <a>
+                        Beckman GS-6R Refrigerated Centrifuge
+                    </a>
+                </div>
+                <img src="images/beckman gs 6r refrigerated centrifuge/20250806_092457-1.webp" loading="lazy"
+                    alt="cold centrifuge">
+                <img src="images/beckman gs 6r refrigerated centrifuge/20250806_092953.webp" loading="lazy"
+                    alt="cold centrifuge">
+                <img src="images/beckman gs 6r refrigerated centrifuge/20250806_093004.webp" loading="lazy"
+                    alt="cold centrifuge">
+                <img src="images/beckman gs 6r refrigerated centrifuge/20250806_093015.webp" loading="lazy"
+                    alt="cold centrifuge">
+            </figure>
+        </div>
+
+        <div class="image-grid">
+            <figure>
+                <div class="btn-wrapper">
+                    <a>
+                        Hamilton Bell Centrifuge
+                    </a>
+                </div>
+                <img src="images/hamilton bell centrifuge/20250707_133620.webp" loading="lazy" alt="">
+            </figure>
+        </div>
+
+        <div class="image-grid">
+            <figure>
+                <div class="btn-wrapper">
+                    <a>
+                        Ritter M9 Ultraclave M9-001 Automatic Sterilizer
+                    </a>
+                </div>
+                <img src="images/Ritter m9 ultraclave/20250806_091716.webp" loading="lazy" alt="ultraclave">
+                <img src="images/Ritter m9 ultraclave/20250806_091722.webp" loading="lazy" alt="ultraclave">
+                <img src="images/Ritter m9 ultraclave/20250806_091734.webp" loading="lazy" alt="ultraclave">
+                <img src="images/Ritter m9 ultraclave/20250806_091740.webp" loading="lazy" alt="ultraclave">
+                <img src="images/Ritter m9 ultraclave/20250806_091747.webp" loading="lazy" alt="ultraclave">
+                <img src="images/Ritter m9 ultraclave/20250806_091805.webp" loading="lazy" alt="ultraclave">
+                <img src="images/Ritter m9 ultraclave/20250806_091826.webp" loading="lazy" alt="ultraclave">
+                <img src="images/Ritter m9 ultraclave/20250806_091833.webp" loading="lazy" alt="ultraclave">
+            </figure>
+        </div>
+
+        <div class="image-grid">
+            <figure>
+                <div class="btn-wrapper">
+                    <a>
+                        VetEquip RC2 Rodent Isoflurane Anesthesia System with Vaporizor
+                    </a>
+                </div>
+                <img src="images/isoflurane chamber/20250724_114336.webp" loading="lazy" alt="Isoflurane">
+                <img src="images/isoflurane chamber/20250724_114339.webp" loading="lazy" alt="Isoflurane">
+                <img src="images/isoflurane chamber/20250724_114345.webp" loading="lazy" alt="Isoflurane">
+                <img src="images/isoflurane chamber/20250724_114352.webp" loading="lazy" alt="Isoflurane">
+                <img src="images/isoflurane chamber/20250724_114400.webp" loading="lazy" alt="Isoflurane">
+                <img src="images/isoflurane chamber/20250724_114526.webp" loading="lazy" alt="Isoflurane">
+            </figure>
+        </div>
+
+        <div class="image-grid">
+            <figure>
+                <div class="btn-wrapper">
+                    <a>
+                        RC2 Rodent Anasthesia Isoflurane
+                    </a>
+                </div>
+                <img src="images/rc2 rodent anasthesia/20250724_114148.webp" loading="lazy" alt="">
+                <img src="images/rc2 rodent anasthesia/20250724_114157.webp" loading="lazy" alt="">
+                <img src="images/rc2 rodent anasthesia/20250724_114217.webp" loading="lazy" alt="">
+                <img src="images/rc2 rodent anasthesia/20250724_114223.webp" loading="lazy" alt="">
+            </figure>
+        </div>
+
+        <div class="image-grid">
+            <figure>
+                <div class="btn-wrapper">
+                    <a>
+                        Vetequip Compac 5 Rodent Anasthesia
+                    </a>
+                </div>
+                <img src="images/wetequip rodent anasthesia/20250707_132644.webp" loading="lazy" alt="">
+                <img src="images/wetequip rodent anasthesia/20250707_132654.webp" loading="lazy" alt="">
+                <img src="images/wetequip rodent anasthesia/20250707_132703.webp" loading="lazy" alt="">
+                <img src="images/wetequip rodent anasthesia/20250707_132714.webp" loading="lazy" alt="">
+            </figure>
+        </div>
+
+        <div class="image-grid">
+            <figure id="toggle-gallery">
+                <div class="btn-wrapper">
+                    <a href="#" id="toggleBtn">Rainin EDP3 LTS Pipettes</a>
+                </div>
+                <img src="images/pipettes/20250724_114603.webp" loading="lazy" alt="pipettes">
+                <img src="images/pipettes/20250724_114608.webp" loading="lazy" alt="pipettes">
+                <img src="images/pipettes/20250724_114611.webp" loading="lazy" alt="pipettes">
+                <img src="images/pipettes/20250724_114613.webp" loading="lazy" alt="pipettes">
+                <img src="images/pipettes/20250724_114635.webp" loading="lazy" alt="pipettes">
+                <img src="images/pipettes/20250724_114702.webp" loading="lazy" alt="pipettes">
+                <img src="images/pipettes/20250724_114706.webp" loading="lazy" alt="pipettes">
+                <img src="images/pipettes/20250724_114708.webp" loading="lazy" alt="pipettes">
+                <img src="images/pipettes/20250724_114710.webp" loading="lazy" alt="pipettes">
+                <img src="images/pipettes/20250724_114716.webp" loading="lazy" alt="pipettes">
+                <img src="images/pipettes/20250724_114738.webp" loading="lazy" alt="pipettes">
+                <img src="images/pipettes/20250724_114746.webp" loading="lazy" alt="pipettes">
+                <img src="images/pipettes/20250724_114749.webp" loading="lazy" alt="pipettes">
+                <img src="images/pipettes/20250724_114751.webp" loading="lazy" alt="pipettes">
+                <img src="images/pipettes/20250724_114818.webp" loading="lazy" alt="pipettes">
+            </figure>
+        </div>
+
+        <div class="image-grid">
+            <figure id="toggle-gallery">
+                <div class="btn-wrapper">
+                    <a>4 Drawer Crash Carts</a>
+                </div>
+                <img src="images/4 drawer crash cart/20250710_144043.webp" loading="lazy" alt="">
+                <img src="images/4 drawer crash cart/20250710_144109.webp" loading="lazy" alt="" class="hidden">
+                <img src="images/4 drawer crash cart/20250710_144138.webp" loading="lazy" alt="" class="hidden">
+            </figure>
+        </div>
+
+    </section>
 </body>
 
 </html>

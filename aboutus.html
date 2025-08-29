@@ -22,10 +22,61 @@
     <script src="scripts/weather.js" defer></script>
     <script src="scripts/pageVisits.js" defer></script>
     <script src="scripts/burger.js" defer></script>
+    <script src="scripts/collapse.js" defer></script>
 </head>
 
 <body>
+    <div class="header-container">
+        <header>
+            <div class="header-content">
+                <span>Classic City Equipment LLC</span>
+                <button id="menu-toggle" class="hamburger" aria-label="Toggle menu">☰</button>
+            </div>
+
+            <nav id="menu-items" class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">All Products</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="https://www.ebay.com/usr/classiccityequipment" target="_blank" rel="noopener noreferrer"
+                class="ebay-profile-btn">
+                Visit Classic City Equipment on eBay
+            </a>
+
+        </header>
+    </div>
 
 </body>
+
+<div class="card-container">
+    <section class="card">
+        <h2>Information</h2>
+        <p>Athen, Georgia, USA</p>
+        <p>The current weather in Athens, Georgia is <span id="current-temp"></span></p>
+        <figure>
+            <img id="weather-icon" src="" alt="">
+            <figcaption></figcaption>
+        </figure>
+
+    </section>
+    <section class="card">
+        <h2>Contact Us</h2>
+        <p>Email: classiccityequipment1@gmail.com</p>
+        <p>Phone: (951) 491-1506</p>
+        <a href="https://github.com/realtimestert">
+            GitHub
+        </a>
+    </section>
+</div>
+
+<footer>
+    <p>© <span id="year"></span> | Classic City Equipment | Athens, Georgia | USA</p>
+    <p id="lastModified"></p>
+</footer>
+<script src="scripts/getDates.js"></script>
+
 
 </html>
